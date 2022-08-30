@@ -1,0 +1,103 @@
+.interieur{
+    width:80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.presentation_interieur{
+    display: flex;
+margin-top: 50px;
+
+}
+.gal_interieur{
+    width: 45vw;
+    margin-left: 10px;
+    margin: 40px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 4px 17px 5px rgba(17,4,122,0.23); 
+    box-shadow: 0px 10px 13px -7px #000000, 2px 4px 17px 5px rgba(17,4,122,0.23);
+    border-radius: 10px;
+}
+.description_inter{
+   
+    width: 45vw;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+p{
+    margin-top: 15px;
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+.title{
+   margin-top: 50px;
+    padding: 0;
+    margin: 0 0 19px 0;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 1px #e72b70 solid;
+}
+li{
+font-size: 20px;
+line-height: 20px;
+padding: 0 0 3px 17px;
+margin: 0;
+
+}
+.produits{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gamme_product{
+
+   
+   margin-top: 35px;
+    width: 100%;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #4e5050 100%);
+	background-color:#111414;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 42px;
+	
+	text-shadow:0px 1px 0px #0c0c0c;
+    margin-left: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #994044 5%, #e72b70 100%);
+	background-color:#e72b70;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+    background-color: aqua;
+}
+.filtre{
+    display: flex;
+    margin: 20px;
+}
